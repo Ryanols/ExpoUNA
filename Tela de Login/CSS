@@ -1,0 +1,35 @@
+.Forma_logar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+
+.login {
+    text-align: center;
+}
+
+.Colocar_nome {
+    border: 2px rgb(13, 13, 13);
+    border-radius: 10px;
+    color: black;
+    font-size: 1em;
+    padding: 15px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.Botao_login {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(134, 127, 136);
+    padding: 15px;
+    margin-bottom: 15px;
+    /*max-width: 300px;
+    width: 100%;
+    Com essas linhas fica dotamanho do input de escerever seu nome*/
+}
