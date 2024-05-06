@@ -1,0 +1,74 @@
+:root {
+    --dark: #0c0c0c;
+    --white: #fff;
+    --purple: #7c54ff;
+    --gray: #949494;
+    --gray2: #cccccc;
+}
+
+/*O root serve para criar variaveis de cores. So atribuirmos o nome da cor a variavel 
+Isso serve para otimizar o tempo e que possamos usar essas cores em outros lugares.
+*/
+
+body {
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.Caixa-questoes {
+    background-color: var(--white);
+    margin-top: 3rem;
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    max-height: 800px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Cabecalho{
+    background-color: var(--purple);
+    border-radius: 10px 10px 0 0;
+    /*Esse border radius serve para color uma borda somente na linha de cima 
+    do header.*/
+    color: var(--white);
+    font-size: 1.4rem ;
+}
+
+.rodape {
+    background-color: var(--purple);
+    padding: 16px;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+input {
+    width: 50%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn-escrever {
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    padding: 10px;
+}
+
+/*O houver tem uma função de quando o mouse passar por cima
+acontce algo */
+#btn-escrever:hover {
+    background-color: var(--gray);
+    cursor: pointer;
+    transition: .4s;
+}
+
