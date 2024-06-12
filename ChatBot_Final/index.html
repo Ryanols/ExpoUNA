@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Caixa-questoes">
+        <div class="Cabecalho">
+            <h4>ChatLGPD</h4>
+        </div>
+
+        <p id="status"></p>
+
+        <div id="historico">
+            <!-- Aqui vai ser onde integraremos o nosso chat -->
+        </div>
+
+        <div class="rodape">
+            <input type="text" placeholder="Pergunte aqui..." id="colocar-mensagem">
+            <button id="btn-escrever" onclick="mandarMensagem()">Enviar</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
